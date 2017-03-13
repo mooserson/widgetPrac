@@ -1,0 +1,26 @@
+body {
+  background-image: url(https://unsplash.it/1024/768/?random);
+}
+
+.tab-widget {
+  width: 30%;
+  height: auto;
+  background-color: white;
+}
+
+.header-row {
+  border: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-tab:nth-child(2) {
+  border-left: 1px red solid;
+  border-right: 1px red solid;
+}
+
+.tab {
+  border: solid blue 1px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}

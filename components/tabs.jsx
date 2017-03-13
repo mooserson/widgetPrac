@@ -16,7 +16,6 @@ class Tabs extends React.Component {
     this.setState({
       tabIndex: e.target.id
     });
-    console.log(this.state);
   }
 
   buildHeaders(titles) {

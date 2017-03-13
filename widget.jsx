@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Tabs from './components/tabs';
+import Clock from './components/clock';
 
 const TABS = [
   {title: "Hello", content: "OMGOMGOMGOMGOMGOMGOMGOMGOMGOMG"},
@@ -11,6 +12,7 @@ const TABS = [
 export const Root = () => (
     <div className="widgets-wrapper">
       <Tabs panes={TABS} />
+      <Clock />
     </div>
 );
 
